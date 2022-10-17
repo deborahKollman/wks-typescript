@@ -28,6 +28,6 @@ function consologea(): void {
 function throwError(msg: string): never {
     throw new Error(msg);
     console.log('un valor')
-  }
+}
 
 let resultado = suma(2, 2)

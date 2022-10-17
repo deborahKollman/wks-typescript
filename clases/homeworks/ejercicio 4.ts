@@ -28,6 +28,12 @@ let diego: Estudiante = {
 
 // Investiga la palabra reservada implements
 
+class Ejemplo implements Estudiante{
+    nombre= 'nombre';
+    edad= 10;
+    esActivo= false;
+}
+
 // Existe otra alternativa para realizar lo mismo?
 // Si, types.
 
